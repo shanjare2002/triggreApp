@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T14:18:17.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zPM5h-g0rm2YOxCw8ozq" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T14:55:33.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5DV7zte4fgy1R-Dontr5" version="24.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="Y8SMzhkFdjgonwJR87yD-0" value="Please describe&amp;nbsp;&lt;div&gt;the&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;application&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;in 50 words.&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="50" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Y8SMzhkFdjgonwJR87yD-1" value="Generate Predefined Template&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-1" value="Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y8SMzhkFdjgonwJR87yD-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="Y8SMzhkFdjgonwJR87yD-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -19,24 +19,51 @@
             <mxPoint x="440" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8SMzhkFdjgonwJR87yD-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.592;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y8SMzhkFdjgonwJR87yD-1" target="Y8SMzhkFdjgonwJR87yD-1">
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-6" value="Chat bot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Y8SMzhkFdjgonwJR87yD-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="480" as="sourcePoint" />
-            <mxPoint x="560" y="240" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="760" y="100" />
-              <mxPoint x="760" y="240" />
-              <mxPoint x="640" y="240" />
-            </Array>
+            <mxPoint x="390" y="100" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8SMzhkFdjgonwJR87yD-4" value="Prompt a customization to the application:&lt;br&gt;for. eg: Add a Rewards Data document" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y8SMzhkFdjgonwJR87yD-3">
-          <mxGeometry x="-0.1636" y="3" relative="1" as="geometry">
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-13" value="&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;Chat bot layer&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;analyses input&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;and decides the best template&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y8SMzhkFdjgonwJR87yD-7">
+          <mxGeometry x="0.0452" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8SMzhkFdjgonwJR87yD-5" value="Updates the template based on the prompt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y8SMzhkFdjgonwJR87yD-3">
-          <mxGeometry x="0.7972" y="2" relative="1" as="geometry">
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-8" value="Triggre Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y8SMzhkFdjgonwJR87yD-6" target="Y8SMzhkFdjgonwJR87yD-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="470" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y8SMzhkFdjgonwJR87yD-8" target="Y8SMzhkFdjgonwJR87yD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-14" value="&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;API Call to triggre server associated with this application&lt;/span&gt;&lt;br style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;to load this template&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y8SMzhkFdjgonwJR87yD-12">
+          <mxGeometry x="0.1263" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y8SMzhkFdjgonwJR87yD-8" target="Y8SMzhkFdjgonwJR87yD-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="700" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y8SMzhkFdjgonwJR87yD-18" value="Loads the template" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y8SMzhkFdjgonwJR87yD-17">
+          <mxGeometry x="-0.4065" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
